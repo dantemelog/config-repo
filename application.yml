@@ -1,0 +1,5 @@
+eureka:
+  client:
+    service-url:
+      defaul-zone: ${EUREKA_URI:http://localhost:${EUREKA_PORT:8761}/eureka}
+      register-with-eureka: true
